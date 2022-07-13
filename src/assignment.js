@@ -38,8 +38,7 @@ function countEvenNumbers(arrayOfNumbers) {
   let count = 0;
   arrayOfNumbers.forEach(item => item % 2 == 0? count += 1 : null);
   
-    return count 
-    
+    return count
 }
  assignment.countEvenNumbers = countEvenNumbers;
 
